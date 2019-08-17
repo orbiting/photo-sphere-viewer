@@ -2,15 +2,18 @@ import React from 'react'
 
 import {
   FigureCaption,
-  FigureByline
+  FigureByline,
+  LazyLoad
 } from '@project-r/styleguide'
 
 import Viewer from './Viewer'
 
-export default ({ options, caption, byline }) => {
+export default ({ options, caption, byline, height = 500 }) => {
 
   return <>
-    <Viewer options={options} />
+    <LazyLoad style={{ height }}>
+      <Viewer options={options} height={height} />
+    </LazyLoad>
     {!!(caption || byline) && <FigureCaption>
       {caption && `${caption} `}
       {byline && <FigureByline>{byline}</FigureByline>}

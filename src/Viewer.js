@@ -6,6 +6,7 @@ const π = Math.PI
 const cssOverwrites = `
 .psv-container, .psv-overlay {
   background: #000;
+  z-index: 0;
 }
 .psv-loader {
   color: #fff;

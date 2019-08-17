@@ -15,7 +15,7 @@ A small wrapper to include it as dynamic component.
         "full_height": 8439,
         "cropped_width": 16878,
         "cropped_height": 3000,
-        "cropped_x": 0,
+        "cropped_x": 100,
         "cropped_y": 2720
       }
     },
