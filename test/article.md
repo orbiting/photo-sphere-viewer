@@ -35,14 +35,14 @@ Doch alles Gutzureden konnte es nicht überzeugen und so dauerte es nicht lange,
   "props": {
     "height": 300,
     "options": {
-      "panorama": "/static/p65.jpg",
+      "panorama": "/static/p6k80.jpg",
       "pano_data": {
-        "full_width": 16878,
-        "full_height": 8439,
-        "cropped_width": 16878,
-        "cropped_height": 3000,
-        "cropped_x": 100,
-        "cropped_y": 2720
+        "full_width": 6000,
+        "full_height": 3000,
+        "cropped_width": 6000,
+        "cropped_height": 1067,
+        "cropped_x": -100,
+        "cropped_y": 967
       }
     },
     "caption": "Am Strand",
