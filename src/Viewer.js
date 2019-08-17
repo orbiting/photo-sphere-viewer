@@ -40,7 +40,7 @@ export default ({ options, height = 500 }) => {
       container: viewerRef.current,
       min_fov: 30,
       max_fov: 65,
-      latitude_range: [π/5.75, -π/5.75],
+      latitude_range: [π/5, -π/5],
       anim_speed: '1rpm',
       loading_txt: 'Lädt…',
       usexmpdata: false,

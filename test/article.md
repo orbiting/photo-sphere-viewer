@@ -22,14 +22,14 @@ Von Adelina, 20.08.2019
   "autoHtml": false,
   "props": {
     "options": {
-      "panorama": "/static/p70.jpg",
+      "panorama": "/static/p65.jpg",
       "pano_data": {
-        "full_width": 16734,
-        "full_height": 8367,
-        "cropped_width": 16734,
+        "full_width": 16878,
+        "full_height": 8439,
+        "cropped_width": 16878,
         "cropped_height": 3000,
-        "cropped_x": 0,
-        "cropped_y": 2684
+        "cropped_x": 100,
+        "cropped_y": 2720
       }
     },
     "caption": "Am Strand",

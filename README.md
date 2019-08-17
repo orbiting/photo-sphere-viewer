@@ -9,14 +9,14 @@ A small wrapper to include it as dynamic component.
   "autoHtml": false,
   "props": {
     "options": {
-      "panorama": "/static/p70.jpg",
+      "panorama": "https://cdn.repub.ch/s3/republik-assets/dynamic-components/photo-sphere-viewer/article-strand-vlora/p65.jpg",
       "pano_data": {
-        "full_width": 16734,
-        "full_height": 8367,
-        "cropped_width": 16734,
+        "full_width": 16878,
+        "full_height": 8439,
+        "cropped_width": 16878,
         "cropped_height": 3000,
         "cropped_x": 0,
-        "cropped_y": 2684
+        "cropped_y": 2720
       }
     },
     "caption": "Am Strand",
@@ -48,7 +48,7 @@ npm run deploy
 
 ### Clear CDN
 
-Goto https://app.keycdn.com/zones/purgeurl/87880 and enter:
+Goto https://app.keycdn.com/zones/purgeurl/136385 and enter:
 
 ```
 /s3/republik-assets/dynamic-components/photo-sphere-viewer/index.js
